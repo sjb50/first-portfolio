@@ -1,0 +1,89 @@
+$backgrounds:white;
+$primaryText:black;
+$banner:linear-gradient(blue,white);
+$navBackground:blue;
+$pythonColors:blue;
+$cColors:green;
+$javaColors:yellow;
+$frontColors:pink;
+$backColors:blue;
+
+.nav{
+  list-style-type: none;
+  text-decoration: none;
+  background: $navBackground;
+  li{
+    background:$navBackground;
+    &:hover{
+    background:darken($navBackground,10%);
+    }
+  }
+}
+
+.card{
+  background-image: radial-gradient(black,white);
+}
+
+div #banner{
+    background-image:$banner;
+  h1{
+    color:black;
+  }
+}
+
+div{
+  background-color: $backgrounds;
+  p{
+    color:$primaryText;
+  }
+}
+
+#pythonCard{
+  background-color: $pythonColors;
+  h6{
+    color:complement($pythonColors);
+  }
+  p{
+    color:complement($pythonColors);
+  }
+}
+
+#cCard{
+    background-color:$cColors;
+    h6{
+      color:complement($cColors);
+    }
+    p{
+      color:complement($cColors);
+    }
+}
+
+#javaCard{
+  background-color: $javaColors;
+  h6{
+    color:complement($javaColors);
+  }
+  p{
+    color:complement($javaColors);
+  }
+}
+
+#frontCard{
+  background-color: $frontColors;
+  h6{
+    color:complement( $frontColors);
+  }
+  p{
+    color:complement( $frontColors);
+  }
+}
+
+#backCard{
+  background-color: $backColors;
+  h6{
+    color:complement($backColors);
+  }
+  p{
+    color:complement($backColors);
+  }
+}

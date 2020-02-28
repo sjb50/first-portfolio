@@ -1,0 +1,61 @@
+.nav {
+  list-style-type: none;
+  text-decoration: none;
+  background: blue; }
+  .nav li {
+    background: blue; }
+    .nav li:hover {
+      background: #0000cc; }
+
+.card {
+  background-image: -webkit-radial-gradient(black, white);
+  background-image: -o-radial-gradient(black, white);
+  background-image: radial-gradient(black, white); }
+
+div #banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(white));
+  background-image: -webkit-linear-gradient(blue, white);
+  background-image: -o-linear-gradient(blue, white);
+  background-image: linear-gradient(blue, white); }
+  div #banner h1 {
+    color: black; }
+
+div {
+  background-color: white; }
+  div p {
+    color: black; }
+
+#pythonCard {
+  background-color: blue; }
+  #pythonCard h6 {
+    color: yellow; }
+  #pythonCard p {
+    color: yellow; }
+
+#cCard {
+  background-color: green; }
+  #cCard h6 {
+    color: purple; }
+  #cCard p {
+    color: purple; }
+
+#javaCard {
+  background-color: yellow; }
+  #javaCard h6 {
+    color: blue; }
+  #javaCard p {
+    color: blue; }
+
+#frontCard {
+  background-color: pink; }
+  #frontCard h6 {
+    color: #c0fff4; }
+  #frontCard p {
+    color: #c0fff4; }
+
+#backCard {
+  background-color: blue; }
+  #backCard h6 {
+    color: yellow; }
+  #backCard p {
+    color: yellow; }
